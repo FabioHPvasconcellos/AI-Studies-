@@ -15,9 +15,39 @@ Este projeto utiliza **regressão logística** para classificar flores do famoso
 
 ---
 
-## ▶️ Como executar:
+## 🛠 Tecnologias Utilizadas
 
-1. Instale as bibliotecas necessárias:
+- **Python**: Linguagem de programação principal utilizada no projeto.
+- **Pandas**: Biblioteca para manipulação e análise de dados.
+- **NumPy**: Biblioteca para computação numérica e manipulação de arrays.
+- **Scikit-learn**: Biblioteca para machine learning, usada para pré-processamento dos dados e treinamento do modelo de regressão logística.
+- **Jupyter Notebook**: Ambiente interativo para desenvolvimento e execução do código.
 
-```bash
-pip install pandas scikit-learn numpy
+---
+
+# Logistic Regression with the Iris Dataset
+
+This project uses **logistic regression** to classify flowers from the well-known **Iris dataset**, based on features such as petal and sepal length and width.
+
+---
+
+## ✅ What the code does:
+
+- Reads data from the `iris.csv` file  
+- Splits the data into training and testing sets  
+- Standardizes the features using `StandardScaler`  
+- Trains a `LogisticRegression` model  
+- Evaluates the model accuracy  
+- Makes predictions on new input data  
+
+---
+
+## 🛠 Technologies Used
+
+- **Python**: Main programming language used in the project.
+- **Pandas**: Library for data manipulation and analysis.
+- **NumPy**: Library for numerical computing and array handling.
+- **Scikit-learn**: Machine learning library used for data preprocessing and training the logistic regression model.
+- **Jupyter Notebook**: Interactive environment for code development and execution.
+
+
